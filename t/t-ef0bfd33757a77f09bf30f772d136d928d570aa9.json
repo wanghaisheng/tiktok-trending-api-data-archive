@@ -1,0 +1,322 @@
+{
+  "user": [],
+  "hashtag": [
+    {
+      "challengeId": "29030560",
+      "description": "From vintage fashion to essential looks, learn about #FashionHistory.",
+      "name": "#fashionhistory",
+      "avatar": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/3b27f1c20bb901bc21e054eeee75eb5d",
+      "stats": {
+        "views": 380500000
+      }
+    },
+    {
+      "challengeId": "1677572474686465",
+      "description": "These are the #UnrealisticThings we want for the holidays.",
+      "name": "#unrealisticthings",
+      "avatar": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/e2ca17e6c807f276a3e8e1f40530dd6b",
+      "stats": {
+        "views": 52500000
+      }
+    },
+    {
+      "challengeId": "38293056",
+      "description": "How are you decorating for the holidays?",
+      "name": "#holidaydecor",
+      "avatar": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/b31b580f984e3849c323af39de01b3cc",
+      "stats": {
+        "views": 3600000000
+      }
+    },
+    {
+      "challengeId": "3883586",
+      "description": "Whether you're hitting the ice, or just braving the cold, we're here for all things #WinterSports.",
+      "name": "#wintersports",
+      "avatar": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/5e34dd7935be353c0e100e6f28d17839",
+      "stats": {
+        "views": 3500000000
+      }
+    },
+    {
+      "challengeId": "3506245",
+      "description": "We're officially counting down to the holidays.",
+      "name": "#holidaycountdown",
+      "avatar": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/0d60b6d1e17ad93e02c27c5d19837ce1",
+      "stats": {
+        "views": 8400000000
+      }
+    },
+    {
+      "challengeId": "1620405117654022",
+      "description": "#GivingSzn is officially underway, and we're partnering with creators, non-profit organizations, and our community to spread goodwill and support our communities. So whether it's supporting good causes LIVE on TikTok, sharing your favorite non-profits, or just checking in on friends and family, join us this #GivingSzn and give back to your community!",
+      "name": "#givingszn",
+      "avatar": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/f1080bd86abea90b7f881c7380d8773f",
+      "stats": {
+        "views": 795000000
+      }
+    },
+    {
+      "challengeId": "14567",
+      "description": "Ok let's go!",
+      "name": "#letsgo",
+      "avatar": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/55dd101c26ab9e8f8afd0e871128fe15",
+      "stats": {
+        "views": 7800000000
+      }
+    },
+    {
+      "challengeId": "1377018",
+      "description": "Whether you're waiting for packages, or just stocking up for the holidays, show us what you're buying online.",
+      "name": "#onlineshopping",
+      "avatar": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/52c58cd9da8b14ced7df7a96df419299",
+      "stats": {
+        "views": 3200000000
+      }
+    },
+    {
+      "challengeId": "1893853",
+      "description": "Happy Hanukkah!",
+      "name": "#hanukkah",
+      "avatar": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/e7f6171b25f88dae1c5b84f60d340615",
+      "stats": {
+        "views": 295000000
+      }
+    },
+    {
+      "challengeId": "15545",
+      "description": "Here's to all the material girls.",
+      "name": "#materialgirl",
+      "avatar": "https://p16-amd-va.tiktokcdn.com/obj/musically-maliva-obj/6703c8b9229fd54509c3a35f35ef4712",
+      "stats": {
+        "views": 548900000
+      }
+    }
+  ],
+  "music": [
+    {
+      "musicId": "6808287098886424577",
+      "avatar": {
+        "jpeg": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/844c24bd2d8d42f9b5227ea1ad5040eb.jpeg",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/844c24bd2d8d42f9b5227ea1ad5040eb.jpeg",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/844c24bd2d8d42f9b5227ea1ad5040eb.jpeg",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/844c24bd2d8d42f9b5227ea1ad5040eb.jpeg"
+        },
+        "webp": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/844c24bd2d8d42f9b5227ea1ad5040eb.webp",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/844c24bd2d8d42f9b5227ea1ad5040eb.webp",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/844c24bd2d8d42f9b5227ea1ad5040eb.webp",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/844c24bd2d8d42f9b5227ea1ad5040eb.webp"
+        }
+      },
+      "musicInfo": {
+        "author": "BeatKing",
+        "title": "Then Leave (feat. Queendom Come)",
+        "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/3e279ff71b8c429dbb625d4132056e21"
+      },
+      "stats": {
+        "posts": 827500
+      }
+    },
+    {
+      "musicId": "6812545347835922434",
+      "avatar": {
+        "jpeg": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/0cbc8b0524c94c7088ec35a79ccd97f7.jpeg",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/0cbc8b0524c94c7088ec35a79ccd97f7.jpeg",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/0cbc8b0524c94c7088ec35a79ccd97f7.jpeg",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/0cbc8b0524c94c7088ec35a79ccd97f7.jpeg"
+        },
+        "webp": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/0cbc8b0524c94c7088ec35a79ccd97f7.webp",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/0cbc8b0524c94c7088ec35a79ccd97f7.webp",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/0cbc8b0524c94c7088ec35a79ccd97f7.webp",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/0cbc8b0524c94c7088ec35a79ccd97f7.webp"
+        }
+      },
+      "musicInfo": {
+        "author": "Kbfr",
+        "title": "Hood Baby",
+        "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/7cd20eb94aea400dbdd277af9a6b4b31"
+      },
+      "stats": {
+        "posts": 2700000
+      }
+    },
+    {
+      "musicId": "6807966889273346822",
+      "avatar": {
+        "jpeg": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/d476d743bdfb4b6db8d23a06d568ae52.jpeg",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/d476d743bdfb4b6db8d23a06d568ae52.jpeg",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/d476d743bdfb4b6db8d23a06d568ae52.jpeg",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/d476d743bdfb4b6db8d23a06d568ae52.jpeg"
+        },
+        "webp": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/d476d743bdfb4b6db8d23a06d568ae52.webp",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/d476d743bdfb4b6db8d23a06d568ae52.webp",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/d476d743bdfb4b6db8d23a06d568ae52.webp",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/d476d743bdfb4b6db8d23a06d568ae52.webp"
+        }
+      },
+      "musicInfo": {
+        "author": "Ir Sais",
+        "title": "Dream Girl",
+        "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/328585413d21411dbb6c6bb13e176056"
+      },
+      "stats": {
+        "posts": 11900000
+      }
+    },
+    {
+      "musicId": "6813134956269947654",
+      "avatar": {
+        "jpeg": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/6b1a5b6360c842be994db3d7644c5a53.jpeg",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/6b1a5b6360c842be994db3d7644c5a53.jpeg",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/6b1a5b6360c842be994db3d7644c5a53.jpeg",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/6b1a5b6360c842be994db3d7644c5a53.jpeg"
+        },
+        "webp": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/6b1a5b6360c842be994db3d7644c5a53.webp",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/6b1a5b6360c842be994db3d7644c5a53.webp",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/6b1a5b6360c842be994db3d7644c5a53.webp",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/6b1a5b6360c842be994db3d7644c5a53.webp"
+        }
+      },
+      "musicInfo": {
+        "author": "Curtis Waters",
+        "title": "Stunnin' (feat. Harm Franklin)",
+        "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/fcb56e66d826417fbec528a6da100727"
+      },
+      "stats": {
+        "posts": 1000000
+      }
+    },
+    {
+      "musicId": "6827517892439968517",
+      "avatar": {
+        "jpeg": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/289c1ad8c2334bfc850c4b55cb5edc60.jpeg",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/289c1ad8c2334bfc850c4b55cb5edc60.jpeg",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/289c1ad8c2334bfc850c4b55cb5edc60.jpeg",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/289c1ad8c2334bfc850c4b55cb5edc60.jpeg"
+        },
+        "webp": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/289c1ad8c2334bfc850c4b55cb5edc60.webp",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/289c1ad8c2334bfc850c4b55cb5edc60.webp",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/289c1ad8c2334bfc850c4b55cb5edc60.webp",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/289c1ad8c2334bfc850c4b55cb5edc60.webp"
+        }
+      },
+      "musicInfo": {
+        "author": "Chloe x Halle",
+        "title": "Do It",
+        "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/a06db1e9483e48a1ab24a09abe34b473"
+      },
+      "stats": {
+        "posts": 451600
+      }
+    },
+    {
+      "musicId": "6834110584288447237",
+      "avatar": {
+        "jpeg": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/4caf79a835b04421b49f75e5b6b2a228.jpeg",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/4caf79a835b04421b49f75e5b6b2a228.jpeg",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/4caf79a835b04421b49f75e5b6b2a228.jpeg",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/4caf79a835b04421b49f75e5b6b2a228.jpeg"
+        },
+        "webp": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/4caf79a835b04421b49f75e5b6b2a228.webp",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/4caf79a835b04421b49f75e5b6b2a228.webp",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/4caf79a835b04421b49f75e5b6b2a228.webp",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/4caf79a835b04421b49f75e5b6b2a228.webp"
+        }
+      },
+      "musicInfo": {
+        "author": "Jawsh 685 & Jason Derulo",
+        "title": "Savage Love (Laxed - Siren Beat)",
+        "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/801988dded3f4f05853ee23c3a242345"
+      },
+      "stats": {
+        "posts": 656400
+      }
+    },
+    {
+      "musicId": "6754420279457565445",
+      "avatar": {
+        "jpeg": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/108329f3b2784a8e8c8d2aeb32350b29.jpeg",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/108329f3b2784a8e8c8d2aeb32350b29.jpeg",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/108329f3b2784a8e8c8d2aeb32350b29.jpeg",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/108329f3b2784a8e8c8d2aeb32350b29.jpeg"
+        },
+        "webp": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/108329f3b2784a8e8c8d2aeb32350b29.webp",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/108329f3b2784a8e8c8d2aeb32350b29.webp",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/108329f3b2784a8e8c8d2aeb32350b29.webp",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/108329f3b2784a8e8c8d2aeb32350b29.webp"
+        }
+      },
+      "musicInfo": {
+        "author": "Electric Light Orchestra",
+        "title": "Mr. Blue Sky",
+        "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/b6210191f1854b7c9157d5d1e2e5fe77"
+      },
+      "stats": {
+        "posts": 603600
+      }
+    },
+    {
+      "musicId": "6746993352891189249",
+      "avatar": {
+        "jpeg": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/383f5db9f1e44955896da2c8eb7be6ac.jpeg",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/383f5db9f1e44955896da2c8eb7be6ac.jpeg",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/383f5db9f1e44955896da2c8eb7be6ac.jpeg",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/383f5db9f1e44955896da2c8eb7be6ac.jpeg"
+        },
+        "webp": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/383f5db9f1e44955896da2c8eb7be6ac.webp",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/383f5db9f1e44955896da2c8eb7be6ac.webp",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/383f5db9f1e44955896da2c8eb7be6ac.webp",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/383f5db9f1e44955896da2c8eb7be6ac.webp"
+        }
+      },
+      "musicInfo": {
+        "author": "Kevin MacLeod & Kevin The Monkey",
+        "title": "Monkeys Spinning Monkeys",
+        "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/2777963d433b4f7e81d002eb04bbbe40"
+      },
+      "stats": {
+        "posts": 19900000
+      }
+    },
+    {
+      "musicId": "6691366574592396038",
+      "avatar": {
+        "jpeg": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/675dfed47d34476cb4fff318bb6edee3.jpeg",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/675dfed47d34476cb4fff318bb6edee3.jpeg",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/675dfed47d34476cb4fff318bb6edee3.jpeg",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/675dfed47d34476cb4fff318bb6edee3.jpeg"
+        },
+        "webp": {
+          "small": "https://p16.tiktokcdn.com/aweme/100x100/tos-alisg-v-2774/675dfed47d34476cb4fff318bb6edee3.webp",
+          "medium": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/675dfed47d34476cb4fff318bb6edee3.webp",
+          "big": "https://p16.tiktokcdn.com/aweme/720x720/tos-alisg-v-2774/675dfed47d34476cb4fff318bb6edee3.webp",
+          "large": "https://p16.tiktokcdn.com/aweme/1080x1080/tos-alisg-v-2774/675dfed47d34476cb4fff318bb6edee3.webp"
+        }
+      },
+      "musicInfo": {
+        "author": "KRYPTO9095",
+        "title": "Woah (feat. D3Mstreet)",
+        "playUrl": "https://sf16-ies-music-sg.tiktokcdn.com/obj/tos-alisg-ve-2774/8b7574ae7d864d259bc0ee18880505fe"
+      },
+      "stats": {
+        "posts": 12600000
+      }
+    }
+  ]
+}

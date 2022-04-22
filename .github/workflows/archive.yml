@@ -1,0 +1,52 @@
+name: upwork
+
+on:
+  workflow_dispatch:
+
+env:
+  UPWORK_COOKIE: ${{secrets.UPWORK_COOKIE}}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+
+    steps:
+      # 克隆仓库
+      - name: Clone repo
+        uses: actions/checkout@v2
+
+      # 配置python环境
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+      # - name: Installed package list
+      #   run: apt list --installed
+      # - name: Remove Chrome
+      #   run: sudo apt purge google-chrome-stable
+      # # Chromium is already installed!
+      # - name: Install software
+      #   run: sudo apt install -y chromium-browser        
+      # 安装python依赖   
+      - name: Install dependencies
+        run: |
+          pip install python-dotenv supabase==0.5.3
+      # 配置git
+      - name: Config git
+        run: |
+          git config --local user.email "ations@github.com"
+          git config --local user.name "github"
+          git remote set-url origin "https://${{ github.actor }}:${{ github.token }}@github.com/${{ github.repository }}"
+          git pull --rebase
+      # 运行
+      - name: Run python
+        run: python archive.py
+
+      # 更新仓库
+      - name: Update repo
+        run: |
+          git add .
+          git commit -m "auto update upwork"
+          git pull
+          git push -u origin main

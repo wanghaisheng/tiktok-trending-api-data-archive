@@ -68,7 +68,6 @@ def dailyupdate():
 
      
 
-
 def savehotstar(stars):
 
     items = [item for item in stars]
@@ -86,12 +85,12 @@ def savehotstar(stars):
             user['avatar_prefix'] =  i['avatar']['jpeg']['large'].split('/')[0]
             user['avatar_thumb_uri'] = i['avatar']['jpeg']['small'].split('/')[-1]
             user['nickname'] = i['name'].strip()
-            user['uid'] = i['uid'].strip()
+            user['uid'] = i['userId'].strip()
             user['sec_uid'] = i['secUserId'].strip()
             user['signature'] = i['bio'].strip()
-            user['follower_count'] = i['stats']['followers'].strip()
-            user['total_favorited'] = i['stats']['likes'].strip()
+            user['follower_count'] = i['stats']['followers']
+            user['total_favorited'] = i['stats']['likes']
             
             data = supabase_db.table(
-                "tiktoka_tiktok_users").insert(user).execute()
+                "tiktoka_tiktok_users").insert(user).execute()  
 dailyupdate()

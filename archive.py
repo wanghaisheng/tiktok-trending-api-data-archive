@@ -45,6 +45,33 @@ def archives():
                     user_list = obj['user']
                     savehotstar(user_list)
 
-                    
+
+
+
+def savehotstar(stars):
+
+    items = [item for item in stars]
+    for i in items:
+        uid = i['userId'].strip()
+        data = supabase_db.table("tiktoka_tiktok_users").select(
+            'uid').eq("uid", uid).execute()
+        # print(type(data))
+        # print('existing db',len(supabase_db.table("tiktoka_douyin_users").select('uid').execute()[0]),data,data[0])
+        if len(data.data) > 0:
+            print('this user exist', uid, data.data)
+        else:
+            user = {}
+            user['avatar_larger_uri'] = i['avatar']['jpeg']['large'].split('/')[-1]
+            user['avatar_prefix'] =  i['avatar']['jpeg']['large'].split('/')[0]
+            user['avatar_thumb_uri'] = i['avatar']['jpeg']['small'].split('/')[-1]
+            user['nickname'] = i['name'].strip()
+            user['uid'] = i['userId'].strip()
+            user['sec_uid'] = i['secUserId'].strip()
+            user['signature'] = i['bio'].strip()
+            user['follower_count'] = i['stats']['followers']
+            user['total_favorited'] = i['stats']['likes']
+            
+            data = supabase_db.table(
+                "tiktoka_tiktok_users").insert(user).execute()                    
 
 archives()

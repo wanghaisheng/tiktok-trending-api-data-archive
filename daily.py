@@ -102,13 +102,13 @@ def savehotstar(stars):
             # data = supabase_db.table(
             #     "tiktoka_tiktok_users").insert(user).execute()  
 
-@retry(stop=stop_after_attempt(3), before=before_log(logger, logging.DEBUG))
+@retry(stop=stop_after_attempt(10), before=before_log(logger, logging.DEBUG))
 def supabaseop(tablename,users):
     try:
         data = supabase_db.table(tablename).insert(users).execute()    
     except:
         raise Exception
-@retry(stop=stop_after_attempt(3), before=before_log(logger, logging.DEBUG))
+@retry(stop=stop_after_attempt(10), before=before_log(logger, logging.DEBUG))
 def supabaseupdate(tablename,user,uid):
     try:
         data = supabase_db.table(tablename).update(user).eq("uid", uid).execute()    

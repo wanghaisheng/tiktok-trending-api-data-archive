@@ -5,7 +5,7 @@ on:
   schedule:
     - cron:  '0 * * * *'
 env:
-  UPWORK_COOKIE: ${{secrets.UPWORK_COOKIE}}
+  supabase_apikey: ${{secrets.supabase_apikey}}
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -38,7 +38,6 @@ def archives():
     allusers = list()
     alllist=list()    
     for t in ['www','t','m']:
-        MergeJson=list()
 
         userfiles = list_jsons(t)
         for filepath in userfiles:
@@ -46,7 +45,6 @@ def archives():
                 with open(filepath, encoding='utf-8') as f:
                     obj = json.load(f)
                     # print(len(obj['user']))
-                    MergeJson.extend(obj['user'])
                     user_list = obj['user']
                     savehotstar(user_list)
 

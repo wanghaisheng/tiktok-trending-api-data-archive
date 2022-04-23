@@ -55,17 +55,14 @@ def archives():
 
 
 def dailyupdate():
-    allsecuid=[]
-
-    alluserinfo=list()
-    allusers = list()    
     for t in ['www','t','m']:
         userfiles = list_jsons(t)
         today = date.today()
 
-        date =datetime(today.year, today.month, today.day).strftime("%Y-%m-%d")
-
-        dailyupdatefiles=[x for x in userfiles if date in x]
+        datestr =datetime(today.year, today.month, today.day-1).strftime("%Y-%m-%d")
+        print(datestr)
+        dailyupdatefiles=[x for x in userfiles if datestr in x]
+        print(dailyupdatefiles)
         for filepath in dailyupdatefiles:
             if os.path.exists(filepath) and os.path.getsize(filepath) > 0:
                 with open(filepath, encoding='utf-8') as f:
@@ -84,19 +81,22 @@ def savehotstar(stars):
             'uid').eq("uid", uid).execute()
         # print(type(data))
         # print('existing db',len(supabase_db.table("tiktoka_douyin_users").select('uid').execute()[0]),data,data[0])
+
+        user = {}
+        user['avatar_larger_uri'] = i['avatar']['jpeg']['large'].split('/')[-1]
+        user['avatar_prefix'] =  i['avatar']['jpeg']['large'].split('/')[0]
+        user['avatar_thumb_uri'] = i['avatar']['jpeg']['small'].split('/')[-1]
+        user['nickname'] = i['name'].strip()
+        user['uid'] = i['userId'].strip()
+        user['sec_uid'] = i['secUserId'].strip()
+        user['signature'] = i['bio'].strip()
+        user['follower_count'] = i['stats']['followers']
+        user['total_favorited'] = i['stats']['likes']
         if len(data.data) > 0:
             print('this user exist', uid, data.data)
+            supabaseupdate("tiktoka_tiktok_users",user,uid)
+
         else:
-            user = {}
-            user['avatar_larger_uri'] = i['avatar']['jpeg']['large'].split('/')[-1]
-            user['avatar_prefix'] =  i['avatar']['jpeg']['large'].split('/')[0]
-            user['avatar_thumb_uri'] = i['avatar']['jpeg']['small'].split('/')[-1]
-            user['nickname'] = i['name'].strip()
-            user['uid'] = i['userId'].strip()
-            user['sec_uid'] = i['secUserId'].strip()
-            user['signature'] = i['bio'].strip()
-            user['follower_count'] = i['stats']['followers']
-            user['total_favorited'] = i['stats']['likes']
             supabaseop("tiktoka_tiktok_users",user)
 
             # data = supabase_db.table(
@@ -106,6 +106,12 @@ def savehotstar(stars):
 def supabaseop(tablename,users):
     try:
         data = supabase_db.table(tablename).insert(users).execute()    
+    except:
+        raise Exception
+@retry(stop=stop_after_attempt(3), before=before_log(logger, logging.DEBUG))
+def supabaseupdate(tablename,user,uid):
+    try:
+        data = supabase_db.table(tablename).update(user).eq("uid", uid).execute()    
     except:
         raise Exception
 dailyupdate()

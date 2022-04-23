@@ -50,6 +50,7 @@ def archives():
                     user_list = obj['user']
                     savehotstar(user_list)
 
+            os.remove(filepath)
 
 
 

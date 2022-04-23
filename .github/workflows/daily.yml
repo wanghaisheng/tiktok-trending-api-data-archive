@@ -44,10 +44,10 @@ jobs:
       - name: Run python
         run: python daily.py
 
-      # 更新仓库
-      - name: Update repo
-        run: |
-          git add .
-          git commit -m "auto update upwork"
-          git pull
-          git push -u origin main
+      # # 更新仓库
+      # - name: Update repo
+      #   run: |
+      #     git add .
+      #     git commit -m "auto update upwork"
+      #     git pull
+      #     git push -u origin main

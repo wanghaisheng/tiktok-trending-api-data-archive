@@ -1,8 +1,9 @@
-name: archive
+name: daily
 
 on:
   workflow_dispatch:
-
+  schedule:
+    - cron:  '0 * * * *'
 env:
   UPWORK_COOKIE: ${{secrets.UPWORK_COOKIE}}
 jobs:
@@ -41,7 +42,7 @@ jobs:
           git pull --rebase
       # 运行
       - name: Run python
-        run: python archive.py
+        run: python daily.py
 
       # 更新仓库
       - name: Update repo

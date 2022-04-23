@@ -1,12 +1,17 @@
-import encodings
 import json
 import os
 import time
-import pandas as pd
 from datetime import datetime, timedelta
 from datetime import date
 from supabase import create_client, Client
 from dotenv import load_dotenv
+import sys
+import logging
+from tenacity import *
+logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
+
+logger = logging.getLogger(__name__)
+
 
 # 加载文件
 load_dotenv(".env")
@@ -70,8 +75,15 @@ def savehotstar(stars):
             user['signature'] = i['bio'].strip()
             user['follower_count'] = i['stats']['followers']
             user['total_favorited'] = i['stats']['likes']
-            
-            data = supabase_db.table(
-                "tiktoka_tiktok_users").insert(user).execute()                    
+            supabaseop("tiktoka_tiktok_users",user)
 
+            # data = supabase_db.table(
+            #     "tiktoka_tiktok_users").insert(user).execute()                    
+
+@retry(stop=stop_after_attempt(3), before=before_log(logger, logging.DEBUG))
+def supabaseop(tablename,users):
+    try:
+        data = supabase_db.table(tablename).insert(users).execute()    
+    except:
+        raise Exception
 archives()
